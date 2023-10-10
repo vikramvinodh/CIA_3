@@ -1,0 +1,1313 @@
+@media (max-width: 560px) {
+
+    .sticky-wrapper,
+    .sticky-nav,
+    .contact-us-logo {
+        display: none !important;
+    }
+
+
+    .navbar {
+        .navbar-brand {
+            img {
+                width: 80px;
+                height: 50px;
+            }
+        }
+    }
+
+
+    #container-floating {
+        right: -10px;
+
+        .whatsapp-pill,
+        .mail-pill,
+        .phone-pill,
+        .expand-pill {
+            width: 30px !important;
+            height: 30px !important;
+
+            svg {
+                width: 20px !important;
+                height: 20px !important;
+                padding: 0rem 0.2rem 0.2rem 0rem;
+            }
+        }
+    }
+
+
+
+    .carousel-cards {
+        margin: 0rem !important;
+        padding: 0rem !important;
+        height: 300px !important;
+
+        h2 {
+            font-size: 16px !important;
+        }
+    }
+
+    .prev-btn,
+    .next-btn {
+        img {
+            width: 20px;
+        }
+    }
+
+    .property-gallery {
+        h2 {
+            font-size: 16px !important;
+        }
+    }
+
+
+    .home-banner {
+
+
+        .banner-text {
+            h1 {
+                font-size: 16px !important;
+            }
+
+            .banner-blur {
+                padding: 1rem;
+            }
+
+            .banner-btns {
+
+
+                .bannerbtn {
+                    margin: 0.5rem;
+                    padding: 0.5rem;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .home-section1 {
+        .bannerdown {
+            padding: 1rem 0rem;
+
+            h3 {
+                text-align: center;
+                font-size: 16px;
+            }
+
+            h1 {
+                text-align: center;
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+
+        .home-interior {
+
+            .home-card {
+
+                #homeimg1 {
+                    height: 250px;
+                }
+
+                img {
+                    height: 250px;
+                    object-fit: cover;
+                }
+
+            }
+
+            .ribbon1 {
+                display: none;
+            }
+        }
+
+        .comm-interior {
+            bottom: 0;
+            left: 0;
+            margin-bottom: 3rem !important;
+
+            #homeimg2 {
+                height: 250px;
+            }
+
+            img {
+                height: 250px !important;
+                object-fit: cover;
+            }
+
+
+            .ribbon2 {
+                display: none;
+            }
+        }
+    }
+
+
+    .hometour {
+        .hometour-title {
+            font-size: 18px;
+        }
+
+        .hometour-desc {
+            font-size: 14px;
+        }
+
+        .container {
+
+            .carousel-cards {
+                height: 300px;
+                width: 200px !important;
+
+                h2 {
+                    font-size: 16px;
+                }
+
+                p {
+                    font-size: 12px;
+                    padding: 0.5rem !important;
+                }
+
+                a {
+                    font-size: 12px !important;
+                    left: 60px;
+                }
+            }
+
+            .next-btn {
+                top: 130px;
+                right: 10px;
+            }
+
+            .prev-btn {
+                top: 130px;
+                left: 5px;
+            }
+        }
+    }
+
+
+    .residentialtours {
+        padding: 3rem 0rem;
+
+
+        h1 {
+            font-size: 18px;
+        }
+
+        p {
+            padding: 0rem;
+            font-size: 14px;
+        }
+
+        .container {
+            .carousel-cards {
+                height: 300px;
+                width: 200px !important;
+
+                h2 {
+                    font-size: 16px;
+                }
+
+                p {
+                    padding: 0.5rem !important;
+                    font-size: 12px;
+                }
+
+                a {
+                    font-size: 12px !important;
+                    left: 60px;
+                }
+            }
+        }
+
+        .next-btn {
+            bottom: 150px;
+            right: 10px;
+
+        }
+
+        .prev-btn {
+            bottom: 150px;
+            left: 5px;
+
+        }
+    }
+
+
+    .commercialtours {
+
+        h1,
+        h3 {
+            font-size: 18px;
+        }
+
+        p {
+            padding: 0rem;
+            font-size: 14px;
+        }
+
+        img {
+            width: 300px;
+        }
+
+        .hospital-tour,
+        .restaurant-tour,
+        .school-tour {
+            flex-direction: column;
+            margin: 2rem 0rem;
+        }
+
+        .restaurant-tour {
+            flex-direction: column-reverse;
+        }
+
+        .commtour-points {
+            margin-top: 2rem;
+
+            ul {
+                list-style-image: none;
+
+                li {
+                    font-size: 14px;
+                }
+            }
+
+            .call-to-btn {
+                margin: 0;
+            }
+        }
+
+        .light-button {
+            font-size: 10px;
+            padding: 0.5rem;
+        }
+
+
+    }
+
+
+    .corporates {
+        h1 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        hr {
+            display: none;
+        }
+
+        .corp-advantages {
+            display: flex;
+            justify-content: center;
+            margin: 2rem 0rem;
+        }
+
+        .light-bg,
+        .corporateadv-card {
+            height: 350px !important;
+            width: 260px !important;
+
+            h4 {
+                font-size: 18px !important;
+            }
+
+            ul {
+                list-style-image: none !important;
+
+                li {
+                    font-size: 14px !important;
+                }
+            }
+        }
+
+        .corp-companies {
+            margin: 1rem 0rem;
+
+            .corp-card-bg {
+                height: 300px;
+                width: 200px;
+
+                .corp-card {
+                    width: 200px;
+                    height: 300px;
+
+                    img {
+                        width: 150px;
+                        margin: 1rem;
+                    }
+
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    .whyus {
+        padding: 1rem;
+
+        h1 {
+            font-size: 18px;
+            padding: 1rem;
+        }
+
+        font-size: 12px;
+
+        .why-card {
+            margin-top: 0;
+        }
+
+        .whyus-rating {
+            padding: 2rem 1rem;
+
+            img {
+                width: 150px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .light-button {
+                margin: 1rem;
+            }
+        }
+    }
+
+    .whyus-stats {
+
+        flex-direction: row;
+
+
+
+        h3 {
+            font-size: 18px !important;
+        }
+    }
+
+    .dark-bg {
+        // height: 250px;
+        height: fit-content;
+        width: 200px !important;
+        margin: 2rem 0rem;
+
+        .white-card {
+            width: 200px;
+            // height: 250px;
+            height: fit-content;
+
+            ul {
+                list-style-image: none;
+
+                li {
+                    font-size: 14px !important;
+                    margin: 0 !important;
+                }
+            }
+        }
+    }
+
+    .light-button {
+        font-size: 12px;
+    }
+
+
+    .awards {
+        h1 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 14px;
+            padding: 1rem 2rem;
+        }
+
+        .awards-card-bg {
+            height: 250px;
+            width: 200px;
+
+            .awards-card {
+                height: 100%;
+                width: 100%;
+
+                img {
+                    width: 100px;
+                    margin: 1rem;
+                }
+
+                p {
+                    padding: 1rem;
+                    margin: 0;
+                }
+            }
+        }
+
+        .next-btn {
+            right: 5px;
+            top: 300px;
+        }
+
+        .prev-btn {
+            left: 0px;
+            top: 300px;
+        }
+    }
+
+
+    .ourprocess {
+        .ratio {
+            img {
+                width: 300px !important;
+                height: fit-content;
+            }
+        }
+
+        h1 {
+            font-size: 18px;
+        }
+
+        .process-card {
+            width: 150px;
+            margin-top: 1rem;
+
+            img {
+                width: 80px;
+                padding: 1rem;
+            }
+
+            h4 {
+                font-size: 14px;
+            }
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .ourdesigners {
+        padding: 1rem;
+
+        h1 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 14px;
+            margin: 1rem;
+        }
+
+        .ourdesigners-card1 {
+            background-image: none;
+            width: 250px;
+            height: 350px;
+
+            .ourdesigners-bg {
+                padding: 1rem;
+
+                .designer-profile {
+                    img {
+                        width: 150px;
+                    }
+                }
+
+                hr {
+                    margin: 0.5rem;
+                }
+
+                h5 {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .next-btn {
+            right: 0px;
+            padding: 0;
+            bottom: -41px;
+        }
+
+        .prev-btn {
+            left: 0px;
+            padding: 0;
+            bottom: -40px;
+        }
+    }
+
+    .reviews {
+        padding: 1rem;
+
+        .light-button {
+            display: none;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+
+        }
+
+        .review-card-bg {
+            height: 350px;
+            width: 250px;
+
+            .review-card {
+                height: 350px;
+                width: 250px;
+
+                .review-profile {
+
+                    img {
+                        width: 40px;
+                    }
+
+                    .review-img {
+                        width: 80px;
+                        height: 80px;
+                    }
+                }
+
+                p {
+                    font-size: 12px;
+                    padding: 1rem;
+                }
+            }
+        }
+
+        .next-btn {
+            right: 0px;
+            padding: 0;
+            top: 250px;
+        }
+
+        .prev-btn {
+            padding: 0;
+            left: 0px;
+            top: 250px;
+
+        }
+    }
+
+    .presence {
+        margin: 3rem 0rem;
+
+        .presence-bg {
+            align-items: center;
+            padding: 0;
+
+            h1 {
+                margin-top: 3rem;
+                font-size: 18px;
+            }
+
+            .presence-locations {
+                padding: 0.5rem;
+
+                .me-5 {
+                    margin-right: 1rem !important;
+                }
+
+                .ms-5 {
+                    margin-left: 0 !important;
+                    margin-right: 1rem !important;
+                }
+
+                img {
+                    width: 20px;
+                }
+
+                a {
+                    font-size: 16px;
+                    padding: 1rem;
+                }
+            }
+        }
+    }
+
+    .faq {
+        hr {
+            display: none;
+        }
+
+        h4 {
+            font-size: 14px;
+            
+        }
+
+        // #faqacc {
+        //     .accordion-item {
+        //         .accordion-button {
+        //             font-size: 14px !important;
+        //         }
+
+        //         .accordion-body {
+        //             font-size: 12px;
+        //         }
+        //     }
+        // }
+        
+    }
+
+    .bottom {
+        .contact-form {
+            padding: 1rem;
+
+            h1 {
+                font-size: 18px;
+            }
+
+            .contact-fields {
+                border: none;
+                margin: 0rem;
+                padding: 1rem;
+
+                h4 {
+                    font-size: 14px;
+                }
+
+                img {
+                    width: 20px;
+                }
+            }
+
+            input {
+                margin-top: 1rem !important;
+                width: 100% !important;
+            }
+        }
+
+
+
+        .dark-button {
+            font-size: 12px;
+        }
+
+        #bottomacc {
+            .accordion-item {
+                .accordion-button {
+                    font-size: 14px;
+                }
+
+                .accordion-body {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    .footer {
+        padding: 1rem;
+
+        .col-sm-6 {
+            margin-top: 2rem;
+        }
+
+        h5 {
+            font-size: 16px;
+        }
+
+        a,
+        p {
+            font-size: 12px
+        }
+
+        .footer-form {
+            .contact-us-logo {
+                left: 200px;
+                bottom: 40px;
+            }
+
+            img {
+                width: 20px;
+            }
+        }
+
+        hr {
+            display: none;
+        }
+
+        span {
+            font-size: 12px;
+        }
+    }
+
+
+    .apartment-banner {
+        .banner-text {
+            justify-content: center !important;
+
+            h3 {
+                font-size: 16px;
+            }
+
+            .bannerbtn {
+                margin: 0.5rem;
+                padding: 0.5rem;
+                font-size: 14px;
+            }
+
+        }
+    }
+
+    .apartment-section1 {
+        h1 {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .apartment-slide {
+            margin: 1rem 0rem;
+
+            h1 {
+                font-size: 16px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .carousel-cards {
+                width: 250px !important;
+                height: 300px !important;
+
+                a {
+                    font-size: 14px;
+                    text-align: center;
+                    padding: 0rem;
+                }
+            }
+
+            .next-btn {
+                right: -15px;
+                top: 250px;
+            }
+
+            .prev-btn {
+                left: -15px;
+                top: 250px;
+            }
+        }
+    }
+
+    .property-banner {
+        // background-image: url(../../Home/Images/banner.png);
+
+        .banner-text {
+            justify-content: center !important;
+            align-items: center !important;
+            margin: 0 !important;
+            color: white !important;
+
+            h3 {
+                font-size: 16px;
+            }
+
+            .bannerbtn {
+                margin: 0.5rem;
+                padding: 0.5rem;
+                font-size: 14px;
+            }
+
+        }
+    }
+
+    .property-section1 {
+        padding: 1rem;
+
+        h1 {
+            font-size: 18px;
+        }
+
+        .property-tours {
+            padding: 1rem 0rem;
+            margin: 2rem 0rem;
+
+            p {
+                font-size: 14px;
+            }
+
+
+            .slickimage-card {
+                img {
+                    width: 200px !important;
+                    height: 250px !important;
+                }
+            }
+
+            .next-btn {
+                top: 320px !important;
+                right: 0 !important;
+            }
+
+            .prev-btn {
+                top: 320px !important;
+                left: 0 !important;
+            }
+
+
+        }
+
+    }
+
+    .apartment-banner {
+        .banner-text {
+            justify-content: center !important;
+
+            h3 {
+                font-size: 16px;
+            }
+
+            .bannerbtn {
+                margin: 0.5rem;
+                padding: 0.5rem;
+                font-size: 14px;
+            }
+
+        }
+    }
+
+    .apartment-section1 {
+        h1 {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .apartment-slide {
+            margin: 1rem 0rem;
+
+            h1 {
+                font-size: 16px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .carousel-cards {
+                width: 250px !important;
+                height: 300px !important;
+
+                a {
+                    font-size: 14px;
+                    text-align: center;
+                    padding: 0rem;
+                }
+            }
+
+            .next-btn {
+                right: -15px;
+                top: 250px;
+            }
+
+            .prev-btn {
+                left: -15px;
+                top: 250px;
+            }
+        }
+    }
+
+    .property-banner {
+        // background-image: url(../../Home/Images/banner.png);
+
+        .banner-text {
+            justify-content: center !important;
+            align-items: center !important;
+            margin: 0 !important;
+            color: white !important;
+
+            h3 {
+                font-size: 16px;
+            }
+
+            .bannerbtn {
+                margin: 0.5rem;
+                padding: 0.5rem;
+                font-size: 14px;
+            }
+
+        }
+    }
+
+    .property-section1 {
+        padding: 1rem;
+
+        h1 {
+            font-size: 18px;
+        }
+
+        .property-tours {
+            padding: 1rem 0rem;
+            margin: 2rem 0rem;
+
+            p {
+                font-size: 14px;
+            }
+
+
+        }
+
+    }
+
+    .callimg {
+        height: 90%;
+    }
+
+    .popup-body {
+        padding: 1rem 1rem 1rem 0rem;
+
+        .close-popup {
+            position: absolute;
+            display: inline-block;
+            right: 30px;
+            background-color: transparent;
+            border: none;
+
+            .popup-closebtn {
+                width: 25px;
+                height: 25px;
+            }
+        }
+
+        .popup-header {
+            margin: 1rem 7rem;
+            text-align: center;
+
+            h1 {
+                font-weight: bold;
+            }
+        }
+
+        .popup-inputs {
+            padding: 2rem 3rem 0rem 6rem;
+
+
+            .input-borderless {
+                border: none;
+                width: 450px;
+                padding: 2rem;
+                margin: 1rem;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.431);
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            .light-button {
+                padding: 0.3rem 4rem;
+                margin-top: 2rem;
+            }
+        }
+    }
+
+    .property-banner {
+        // background-image: url(../../Home/Images/banner.png);
+
+        .banner-text {
+            justify-content: center !important;
+            align-items: center !important;
+            margin: 0 !important;
+            color: white !important;
+
+            h3 {
+                font-size: 16px;
+            }
+
+            .bannerbtn {
+                margin: 0.5rem;
+                padding: 0.5rem;
+                font-size: 14px;
+            }
+
+        }
+    }
+
+    .property-section1 {
+        padding: 1rem;
+
+        h1 {
+            font-size: 18px;
+        }
+
+        .property-tours {
+            padding: 1rem 0rem;
+            margin: 2rem 0rem;
+
+            p {
+                font-size: 14px;
+            }
+
+
+        }
+
+    }
+
+    .apartment-banner {
+        .banner-text {
+            justify-content: center !important;
+
+            h3 {
+                font-size: 16px;
+            }
+
+            .bannerbtn {
+                margin: 0.5rem;
+                padding: 0.5rem;
+                font-size: 14px;
+            }
+
+        }
+    }
+
+    .apartment-section1 {
+        h1 {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .apartment-slide {
+            margin: 1rem 0rem;
+
+            h1 {
+                font-size: 16px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .carousel-cards {
+                width: 250px !important;
+                height: 300px !important;
+
+                a {
+                    font-size: 14px;
+                    text-align: center;
+                    padding: 0rem;
+                }
+            }
+
+            .next-btn {
+                right: -15px;
+                top: 250px;
+            }
+
+            .prev-btn {
+                left: -15px;
+                top: 250px;
+            }
+        }
+    }
+
+    .service-banner {
+        .banner-text {
+            justify-content: center !important;
+
+            h3 {
+                font-size: 16px;
+            }
+
+            .bannerbtn {
+                margin: 0.5rem;
+                padding: 0.5rem;
+                font-size: 14px;
+            }
+
+        }
+    }
+
+    .s-residentialtours {
+        padding: 1rem;
+
+        h3 {
+            font-size: 16px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        .carousel-cards {
+            width: 250px !important;
+            height: 300px !important;
+
+            a {
+                font-size: 14px;
+                text-align: center;
+                padding: 0rem;
+            }
+        }
+
+        .next-btn {
+            right: -5px;
+            top: 300px;
+        }
+
+        .prev-btn {
+            left: -5px;
+            top: 300px;
+        }
+    }
+
+    .servicessec {
+        padding: 3rem 0rem;
+
+        h3 {
+            font-size: 16px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        .carousel-cards {
+            width: 250px !important;
+            height: 300px !important;
+
+            a {
+                font-size: 14px;
+                text-align: center;
+                padding: 0rem;
+            }
+        }
+
+        .next-btn {
+            right: -5px;
+            top: 350px;
+        }
+
+        .prev-btn {
+            left: -5px;
+            top: 350px;
+        }
+    }
+
+
+
+
+    .property-gallery .gallery-container {
+        width: auto !important;
+    }
+
+    .bannerau {
+        background-size: cover;
+    }
+
+    .aboutuspage {
+
+        .bannertextb {
+            h2 {
+                font-size: 20px;
+            }
+        }
+
+        .heading-type {
+            font-size: 20px;
+            margin-top: 1rem;
+        }
+
+        .aboutcontent {
+            .p-5 {
+                padding: 2rem !important;
+            }
+
+            .imgstory {
+                width: 300px;
+                height: 200px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+        .ourstyle {
+            .veed {
+                margin: 0 !important;
+                background-color: transparent;
+                width: 100%;
+
+                iframe {
+                    width: fit-content;
+                    height: 200px;
+                }
+            }
+        }
+
+    }
+
+
+
+
+    .bottom-linking {
+        .accordion {
+            .accordion-body {
+                font-size: 14px;
+
+                h3 {
+                    font-size: 20px;
+
+                }
+
+
+                h4 {
+                    font-size: 18px;
+
+                }
+            }
+        }
+    }
+
+    .ren-tour {
+        .hometour-title {
+            font-size: 18px;
+        }
+
+        .hometour-desc {
+            font-size: 14px;
+        }
+
+        .container {
+
+            .carousel-cards {
+                height: 300px;
+                width: 200px !important;
+
+                h2 {
+                    font-size: 16px;
+                }
+
+                p {
+                    font-size: 12px;
+                    padding: 0.5rem !important;
+                }
+
+                a {
+                    font-size: 12px !important;
+                    left: 60px;
+                }
+            }
+
+            .next-btn {
+                top: 130px;
+                right: 10px;
+            }
+
+            .prev-btn {
+                top: 130px;
+                left: 5px;
+            }
+        }
+
+    }
+}
+
+@media (min-width:480px) and (max-width:767px) {}
+
+@media (min-width: 560px) and (max-width: 990px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1400px) {}
+
+@media only screen and (min-width: 1400px) {}

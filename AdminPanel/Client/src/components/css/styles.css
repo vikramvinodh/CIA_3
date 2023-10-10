@@ -1,0 +1,395 @@
+* {
+    --bs-bg-color-theme: #252e2f;
+    --bs-bg-color: #7a9c59;
+    --bs-color-black: #101f32;
+    --bs-color-lay: #f2f2f2;
+    --bs-accordian-buttonn: '\F4FE';
+    --bs-color-gradient: linear-gradient(90deg, #E15254 0%, #CC369E 24.48%, #905ECE 51.04%, #4180F8 76.04%, #2B6DF5 98.44%);
+    /* font-size: 14px; */
+}
+
+.content-text {
+    color: #777777;
+}
+
+
+/* LOGIN PAGE */
+
+.logincard {
+    border-top: #000000 2px solid;
+    padding: 10px 40px 40px 40px;
+    border-radius: 0;
+}
+
+.loader {
+    height: 100vh;
+}
+
+.fp {
+    text-decoration: none;
+    color: #000000;
+}
+
+.card-body {
+    padding: 20px 30px;
+}
+
+
+.loginbtn-green {
+    width: 100%;
+    color: white;
+    background-color: #54B435;
+    border-radius: 5px;
+    height: 5vh;
+    border: none !important;
+    margin-top: 3vh;
+}
+
+.loginbtn-yellow {
+    width: 100%;
+    color: white;
+    background-color: #F2921D;
+    border-radius: 5px;
+    height: 5vh;
+    border: none !important;
+    margin-top: 3vh;
+}
+
+.loginbtn-red {
+    width: 100%;
+    color: white;
+    background-color: #DC3535;
+    border-radius: 5px;
+    height: 5vh;
+    border: none !important;
+    margin-top: 3vh;
+}
+
+
+.textinput {
+    border: none;
+    border-bottom: black 1px solid;
+}
+
+.textinput:focus {
+    outline: none;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.progress {
+    height: 5px !important;
+}
+
+/* END OF LOGIN PAGE CSS  */
+
+.css-10hburv-MuiTypography-root {
+    font-size: .8rem !important;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CSS  */
+
+
+/* .nav-link {
+    margin: 20px 0px;
+} */
+
+.category-menu {
+    display: none;
+}
+
+.course-nav:hover .category-menu {
+    display: block;
+}
+
+
+.navbar-nav li {
+    padding: 0px 20px;
+    font-weight: bold;
+    color: black;
+
+}
+
+.category-nav {
+    background-color: white;
+}
+
+.dropstart .dropdown-menu[data-bs-popper] {
+    margin: 0 !important;
+}
+
+.dropbtn {
+    border: none !important;
+}
+
+
+.css-k008qs {
+    display: block !important;
+}
+
+/* END OF NAVBAR CSS  */
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
+/* USER TABLE CSS  */
+
+.add-user {
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    padding: 10px 15px 10px 15px;
+}
+
+/* END OF USER TABLE CSS  */
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+/* CATEGORY PAGE */
+
+.category-container {
+    height: 60vh;
+    overflow-Y: auto;
+    overflow-X: none;
+}
+
+/* width */
+.category-container::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+/* Track */
+.category-container::-webkit-scrollbar-track {
+    background: #b6b5b5;
+    border-radius: 100px;
+}
+
+/* Handle */
+.category-container::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 100px;
+}
+
+
+.Category-box-1 {
+    background-color: #00000018;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: #000000 -5px 5px;
+    height: 600px;
+
+}
+
+.category-box-1-inner {
+    background-color: white;
+    border-radius: 10px 0px 0px 10px;
+    height: 480px;
+    overflow: auto;
+}
+
+.category-element {
+    padding: 11px 7px 7px 15px;
+    margin: 10px 10px 15px 10px;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 2px;
+}
+
+.category-element:hover {
+    color: white;
+    background-color: #000000;
+}
+
+.category-add-btn,
+.category-edit-btn {
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    font-size: small;
+    background-color: transparent;
+}
+
+.category-add-btn:hover,
+.category-edit-btn:hover {
+    border-color: 2px solid #000000;
+}
+
+
+.category-btn {
+    border: none;
+    border-radius: 10px;
+    padding: 2px 4px 4px 4px
+}
+
+.error-no-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.category-course-nav {
+    display: flex;
+    width: fit-content;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    padding: 5px 15px;
+    justify-content: center;
+    cursor: pointer;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.category-unique-id {
+    font-size: 10px;
+    color: gray;
+}
+
+.category-course-nav .nav-link {
+    color: black;
+    font-size: small;
+    border: none;
+    padding: 0px 20px;
+}
+
+.category-course-nav .nav-link:hover {
+    color: #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.Category-box-2 {
+    background-color: #00000018;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: #000000 5px 5px;
+    height: 600px;
+}
+
+.category-box-sticky {
+    position: sticky !important;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.category-input-box {
+    border: none;
+    border-bottom: 2px solid #000000;
+}
+
+.category-input-box:focus {
+    outline: none;
+}
+
+.course-element {
+    padding: 5px 7px 7px 15px;
+    margin: 5px 10px 15px 10px;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+    height: fit-content;
+    border-bottom: 1px solid #000000;
+}
+
+.input-icons i {
+    position: absolute;
+}
+
+.icon {
+    padding: 3px 0px 0px 7px;
+    min-width: 40px;
+}
+
+.category-box-2-inner {
+    background-color: white;
+    border-radius: 10px 0px 0px 10px;
+    height: 30rem;
+    overflow: auto;
+
+}
+
+.course-status {
+    font-size: 11px;
+    color: gray;
+}
+
+/* END OF CATEGORY PAGE */
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+
+.btn-outline-dark {
+    outline: 1px solid black;
+}
+
+
+.fp {
+    text-decoration: none;
+    color: #000000;
+}
+
+.card-body {
+    padding: 20px 30px !important;
+}
+
+.loginbtn {
+    width: 100%;
+    color: white;
+    /* background-image: linear-gradient(to right, #708dfd, #000000); */
+    background-color:  #000000;
+    border-radius: 5px;
+    height: 5vh;
+    border: none !important;
+    margin-top: 3vh;
+}
+
+.form-control {
+    height: 5vh !important;
+    width: 100%;
+}
+
+.form-control:focus {
+    border: none !important;
+    outline: gray 1px solid !important;
+    box-shadow: none !important;
+}
+
+.navbar1 {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0px !important;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.k-logo {
+    max-width: 30px !important;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 5px;
+}
+
+
+.MuiToolbar-root{
+    background-color: #000000;
+    color: white;
+}

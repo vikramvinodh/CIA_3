@@ -1,0 +1,20 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+ /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap'); */
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+ * {
+     font-family: "Poppins";
+ }
+
+ @font-face {
+     font-family: "Inter";
+     src: url(../../fonts/Inter-Medium.ttf);
+ }
+
+
+ @font-face {
+     font-family: "Avenir";
+     src: url(../../fonts/AvenirNextLTPro-Regular.otf);
+ }

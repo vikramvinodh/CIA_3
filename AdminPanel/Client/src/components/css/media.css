@@ -1,0 +1,490 @@
+/* Mobile view  */
+@media (max-width:560px) {
+    .avatar-btn {
+        justify-content: start !important;
+    }
+
+    .banner-flip{
+        display: none;
+    }
+
+    .schedule-filter {
+        margin: 0.5rem !important;
+    }
+
+    .recruiter-img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .schedules {
+        display: none !important;
+    }
+
+    .schedules-grid {
+        display: block !important;
+    }
+
+
+
+    .key-features img {
+        max-width: 20px;
+        height: 20px;
+    }
+
+    .skills-focused-title b {
+        font-size: 14px;
+    }
+
+    .whocanattend img {
+        max-width: 20px;
+        height: 20px;
+    }
+
+    .row-box-container {
+        margin: 1rem 0rem !important;
+    }
+
+    .syllabus-sticky {
+        display: none;
+    }
+
+    .category-container {
+        font-size: small;
+        height: 30vh !important;
+    }
+
+    .category-box-2-inner {
+        height: 45vh !important;
+    }
+
+    .category-course-nav .nav-link {
+        color: black;
+        font-size: 12px !important;
+        border: none;
+        padding: 0px 20px;
+    }
+
+    .category-input-box {
+        border: none;
+        width: 90% !important;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #000000;
+    }
+
+    .category-element,
+    .course-element {
+        font-size: small;
+    }
+
+    * {
+        font-size: 12px;
+        box-sizing: border-box;
+    }
+
+    .popupimg {
+        display: none;
+    }
+
+
+
+    .footer-title {
+        margin-top: 1rem;
+    }
+
+
+
+
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4,
+    .box-5,
+    .box-6 {
+        padding: 1rem 3rem 1rem 3rem;
+        width: 100%;
+    }
+
+    .quick-links {
+        display: none;
+    }
+
+    .download-syllabus {
+        margin-top: 1rem;
+    }
+
+
+    .section-6-career {
+        padding-top: 30px !important;
+    }
+
+    .certification {
+        padding-top: 60px !important;
+    }
+
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4,
+    .box-5,
+    .box-6 {
+        padding: 1rem 3rem 1rem 3rem;
+        width: 100%;
+    }
+
+    .quick-links {
+        display: none;
+    }
+
+    .xxl-text {
+        font-size: 32px !important;
+    }
+
+    .xl-text {
+        font-size: 24px !important;
+    }
+
+    .faq-sticky {
+        display: none;
+    }
+
+    .whyus-points {
+        margin-bottom: 2rem;
+    }
+
+    .download-syllabus {
+        margin-top: 1rem;
+    }
+
+    #testimonial-left {
+        display: none;
+    }
+
+    #testimonial-right {
+        display: none;
+    }
+
+    .testimonial-container {
+        width: 100% !important;
+    }
+
+    .testimonial-open {
+        width: 10%;
+    }
+
+    .testimonial-close {
+        top: -50px !important;
+        width: 10%;
+    }
+
+    .testimonial-title {
+        margin-top: 1.5rem;
+        position: relative;
+        top: -10px !important;
+    }
+
+    .testimonial-title strong {
+        font-size: 16px;
+    }
+
+    .testimonial-frame {
+        width: 25px !important;
+        outline: 0px !important;
+    }
+
+    .testimonial-photos {
+        bottom: -15px !important;
+        justify-content: space-between;
+    }
+
+    .testimonial-frame.active {
+        top: -5px !important;
+    }
+
+    #testimonial-mobile-right {
+        display: block !important;
+    }
+
+    #testimonial-mobile-left {
+        display: block !important;
+    }
+
+
+    .testimonial-quote {
+        top: 0px !important;
+    }
+
+    .testimonial-quote p {
+        font-size: 10px;
+    }
+
+    .testimonial-quote img {
+        width: 40%;
+    }
+
+    .testimonial-footer {
+        top: 38px !important;
+    }
+
+    .testimonial-bottom {
+        width: 100% !important;
+    }
+
+    .notfound {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .notfound-title {
+        font-size: 30px !important;
+    }
+
+    .notfound-desc {
+        font-size: 20px !important;
+    }
+
+    .notfound-desc-exp {
+        font-size: 15px !important;
+    }
+
+    .notfound-img {
+        display: none;
+    }
+
+    .lead-detailed-box {
+        width: 100% !important;
+        font-size: 14px !important;
+        padding: 1rem !important;
+    }
+
+    .lead-detailed-box .data {
+        width: 100 !important;
+        margin: .3rem 0 !important;
+    }
+
+    .lead-detailed-box .value {
+        width: 100% !important;
+        margin: .3rem 0 !important;
+    }
+
+}
+
+/* Tablet View  */
+@media (min-width:560px) and (max-width:990px) {
+    .category-container {
+        font-size: small;
+        height: 40vh !important;
+        overflow-Y: hidden;
+    }
+
+    .schedule-details small {
+        font-size: 12px;
+    }
+
+    .schedule-details b {
+        font-size: 10px !important;
+    }
+
+    .schedule-details p {
+        font-size: 10px !important;
+    }
+
+
+    .section-2-overview p {
+        font-size: 14px !important;
+    }
+
+    .tablet-coupon {
+        display: block !important;
+    }
+
+    .discount-img {
+        display: none;
+    }
+
+    .whycourse h5 {
+        font-size: 20px !important;
+    }
+
+    .whycourse p {
+        font-size: 14px !important;
+    }
+
+
+
+    .recruiter-img {
+        width: 100px;
+    }
+
+    .discount-tag img {
+        width: 80px;
+    }
+
+    .schedule-list {
+        font-size: 12px !important;
+    }
+
+    .schedule-list h5 {
+        font-size: 14px !important;
+    }
+
+    .schedule-list b {
+        font-size: 14px !important;
+    }
+
+
+    .schedule-filter {
+        padding: 5px;
+        margin-top: 10px !important;
+    }
+
+    .faq-sticky {
+        display: none;
+    }
+
+    .syllabus-sticky {
+        display: none;
+    }
+
+    .xxl-text {
+        font-size: 48px !important;
+    }
+
+    .xl-text {
+        font-size: 32px !important;
+    }
+
+    .category-box-1-inner {
+        height: 27rem !important;
+    }
+
+    .category-box-2-inner {
+        height: 24rem !important;
+    }
+
+    .category-course-nav .nav-link {
+        color: black;
+        font-size: 12px !important;
+        border: none;
+        padding: 0px 20px;
+    }
+
+    .category-input-box {
+        border: none;
+        width: 90% !important;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #000000;
+    }
+
+    .category-element,
+    .course-element {
+        font-size: small;
+    }
+
+    .quick-links {
+        display: none;
+    }
+
+    .filling-fast {
+        width: 50%;
+    }
+
+    .notfound {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .notfound-title {
+        font-size: 50px !important;
+    }
+
+    .notfound-desc {
+        font-size: 30px !important;
+    }
+
+    .notfound-desc-exp {
+        font-size: 15px !important;
+    }
+
+    .notfound-img img {
+        width: 80%;
+    }
+
+    .lead-detailed-box {
+        width: 100% !important;
+        font-size: 14px !important;
+        padding: 1rem !important;
+    }
+
+    .lead-detailed-box .data {
+        width: 100 !important;
+        margin: .3rem 0 !important;
+    }
+
+    .lead-detailed-box .value {
+        width: 100% !important;
+        margin: .3rem 0 !important;
+    }
+
+}
+
+
+
+@media (max-width:1024px) {
+    .sticky-header {
+        display: none !important;
+    }
+
+    .terms-quick-link {
+        display: none;
+    }
+
+    .connect-with-reps {
+        margin-top: 3rem;
+    }
+
+    .call-to-btn {
+        margin-top: 1rem;
+    }
+
+    .lead-detailed-box {
+        width: 100% !important;
+        font-size: 14px !important;
+        padding: 1rem !important;
+    }
+
+    .lead-detailed-box .data {
+        width: 100 !important;
+        margin: .3rem 0 !important;
+    }
+
+    .lead-detailed-box .value {
+        width: 100% !important;
+        margin: .3rem 0 !important;
+    }
+}
+
+/* Large Screen  */
+
+@media (min-width:990px) {
+    .rating {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .syllabus-title {
+        padding-right: 150px;
+    }
+
+
+    .notfound {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
